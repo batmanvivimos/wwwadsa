@@ -1,0 +1,163 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  ReachFixPlugin (ReachFix-1.12.2-1.1.3.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  XaeroMinimapPlugin (Xaeros_Minimap_25.2.6_Forge_1.12.jar)
+  SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.6.0.jar)
+  Quark Plugin (Quark-r1.6-179.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  HCASM (HammerLib-1.12.2-12.2.58.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+Contact their authors BEFORE contacting forge
+
+// Sorry :(
+
+Time: 6/12/25 12:13 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod reccomplex (Recurrent Complex) requires [ivtoolkit]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1027-azure
+	Java Version: 1.8.0_452, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2050165240 bytes (1955 MB) / 2553806848 bytes (2435 MB) up to 11453595648 bytes (10923 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 77 mods loaded, 77 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version                  | Source                                            | Signature                                |
+	|:----- |:--------------------------------- |:------------------------ |:------------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft                         | 1.12.2                   | minecraft.jar                                     | None                                     |
+	| L     | mcp                               | 9.42                     | minecraft.jar                                     | None                                     |
+	| L     | FML                               | 8.0.99.99                | forge-1.12.2-14.23.5.2860.jar                     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge                             | 14.23.5.2860             | forge-1.12.2-14.23.5.2860.jar                     | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | xaerominimap_core                 | 1.12.2-1.0               | minecraft.jar                                     | None                                     |
+	| L     | obfuscate                         | 0.4.2                    | minecraft.jar                                     | None                                     |
+	| L     | apexguns                          | 0.1.2                    | ApexGunAddon-1.12.2-0.1.2.jar                     | None                                     |
+	| L     | appleskin                         | 1.0.14                   | AppleSkin-mc1.12-1.0.14.jar                       | None                                     |
+	| L     | appliedenergistics2               | rv6-stable-7             | appliedenergistics2-rv6-stable-7.jar              | None                                     |
+	| L     | autoreglib                        | 1.3-32                   | AutoRegLib-1.3-32.jar                             | None                                     |
+	| L     | baubles                           | 1.5.2                    | Baubles-1.12-1.5.2.jar                            | None                                     |
+	| L     | bhc                               | 2.0.3                    | baubley-heart-canisters-1.12.2-2.0.3.jar          | None                                     |
+	| L     | betterbuilderswands               | 0.13.2                   | BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar | None                                     |
+	| L     | bettermineshafts                  | 1.12.2-2.2.1             | BetterMineshaftsForge-1.12.2-2.2.1.jar            | None                                     |
+	| L     | byg                               | 1.7.1                    | BiomesYouGo1.7.1.jar                              | None                                     |
+	| L     | bookshelf                         | 2.3.590                  | Bookshelf-1.12.2-2.3.590.jar                      | None                                     |
+	| L     | crafttweaker                      | 4.1.20                   | CraftTweaker2-1.12-4.1.20.703.jar                 | None                                     |
+	| L     | crafttweakerjei                   | 2.0.3                    | CraftTweaker2-1.12-4.1.20.703.jar                 | None                                     |
+	| L     | elevatorid                        | 1.3.14                   | ElevatorMod-1.12.2-1.3.14.jar                     | None                                     |
+	| L     | eplus                             | 5.0.179                  | EnchantingPlus-1.12.2-5.0.179.jar                 | None                                     |
+	| L     | endercore                         | 1.12.2-0.5.78            | EnderCore-1.12.2-0.5.78.jar                       | None                                     |
+	| L     | enderio                           | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderiobase                       | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderioconduitsappliedenergistics | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderioconduitsopencomputers      | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderioconduitsrefinedstorage     | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderioconduits                   | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderiointegrationforestry        | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderiointegrationtic             | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderiointegrationticlate         | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderioinvpanel                   | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderiomachines                   | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | enderiopowertools                 | 5.3.72                   | EnderIO-1.12.2-5.3.72.jar                         | None                                     |
+	| L     | fluxnetworks                      | 4.1.0                    | FluxNetworks-1.12.2-4.1.1.34.jar                  | None                                     |
+	| L     | cgm                               | 0.15.3                   | guns-0.15.3-1.12.2.jar                            | None                                     |
+	| L     | hammercore                        | 12.2.58                  | HammerLib-1.12.2-12.2.58.jar                      | None                                     |
+	| L     | hermitsarsenal                    | V1                       | hermitsarsenal-V1.jar                             | None                                     |
+	| L     | improvableskills                  | 12.4.68                  | ImprovableSkills-1.12.2-12.4.68.jar               | None                                     |
+	| L     | ironchest                         | 1.12.2-7.0.67.844        | ironchest-1.12.2-7.0.72.847.jar                   | None                                     |
+	| L     | ironfurnaces                      | 1.3.5                    | ironfurnaces-1.3.5.jar                            | None                                     |
+	| L     | jei                               | 4.16.1.1013              | jei_1.12.2-4.16.1.1013.jar                        | None                                     |
+	| L     | jee                               | 1.0.8                    | JustEnoughEnergistics-1.12.2-1.0.8.jar            | None                                     |
+	| L     | mantle                            | 1.12-1.3.3.55            | Mantle-1.12-1.3.3.55.jar                          | None                                     |
+	| L     | mekanism                          | 1.12.2-9.8.3.390         | Mekanism-1.12.2-9.8.3.390.jar                     | None                                     |
+	| L     | mekanismgenerators                | 1.12.2-9.8.3.390         | MekanismGenerators-1.12.2-9.8.3.390.jar           | None                                     |
+	| L     | mekanismtools                     | 1.12.2-9.8.3.390         | MekanismTools-1.12.2-9.8.3.390.jar                | None                                     |
+	| L     | nocubessrparmory                  | 3.0.0                    | NoCubes_SRP_Combat_Addon_3.0.0.jar                | None                                     |
+	| L     | nocubessrpnests                   | 3.0.0                    | NoCubes_SRP_Nests_Addon_3.0.0.jar                 | None                                     |
+	| L     | nocubessrpsurvival                | 3.0.0                    | NoCubes_SRP_Survival_Addon_3.0.0.jar              | None                                     |
+	| L     | nocubesrptweaks                   | V5.1                     | nocubesrptweaks-V5.1.jar                          | None                                     |
+	| L     | oresabovediamonds                 | 3.2                      | OresAboveDiamonds 1.12.2 v4.2.jar                 | None                                     |
+	| L     | overlast                          | 0.2.9                    | OverLast-1.12.2-0.2.9B9.jar                       | None                                     |
+	| L     | harvestcraft                      | 1.12.2zb                 | Pam's HarvestCraft 1.12.2zg.jar                   | None                                     |
+	| L     | quark                             | r1.6-179                 | Quark-r1.6-179.jar                                | None                                     |
+	| L     | reachfix                          | 1.1.3                    | ReachFix-1.12.2-1.1.3.jar                         | None                                     |
+	| L     | reccomplex                        | 1.4.8.6                  | RecurrentComplex-1.4.8.6.jar                      | None                                     |
+	| L     | roguelike                         | 1.8.0                    | RoguelikeDungeons-1.12.2-1.8.0.jar                | None                                     |
+	| L     | spartanshields                    | 1.5.5                    | SpartanShields-1.12.2-1.5.5.jar                   | None                                     |
+	| L     | spartanweaponry                   | 1.6.0                    | SpartanWeaponry-1.12.2-1.6.0.jar                  | None                                     |
+	| L     | srp_medical_addon                 | 1.0.0                    | SRP_medical_addon_1.12.2-1.0.3.jar                | None                                     |
+	| L     | srparasites                       | 1.9.21                   | SRParasites-1.12.2v1.9.21 (2).jar                 | None                                     |
+	| L     | srpextra                          | 0.4.3                    | SRPExtra-0.4.3.jar                                | None                                     |
+	| L     | srpmeshi                          | 1.3                      | srpmeshi-1.5.jar                                  | None                                     |
+	| L     | srpquark                          | 1.3                      | SRPQuark-1.3.jar                                  | None                                     |
+	| L     | srptweaks                         | V2                       | srptweaks-V2.jar                                  | None                                     |
+	| L     | mo                                | 1.0                      | sulfur-potassium-1.12-1.1.jar                     | None                                     |
+	| L     | swparasites                       | v3.1                     | swparasites-v3.1.jar                              | None                                     |
+	| L     | tconstruct                        | 1.12.2-2.13.0.183        | TConstruct-1.12.2-2.13.0.183.jar                  | None                                     |
+	| L     | tcomplement                       | 1.12.2-0.4.3             | TinkersComplement-1.12.2-0.4.3.jar                | None                                     |
+	| L     | tinkersjei                        | 1.2                      | tinkersjei-1.2.jar                                | None                                     |
+	| L     | tinkertoolleveling                | 1.12.2-1.1.0.DEV.b23e769 | TinkerToolLeveling-1.12.2-1.1.0.jar               | None                                     |
+	| L     | travelersbackpack                 | 1.0.35                   | TravelersBackpack-1.12.2-1.0.35.jar               | None                                     |
+	| L     | xat                               | 0.32.5                   | Trinkets and Baubles-0.32.5.jar                   | None                                     |
+	| L     | xaerominimap                      | 25.2.6                   | Xaeros_Minimap_25.2.6_Forge_1.12.jar              | None                                     |
+	| L     | recipehandler                     | 0.14                     | YARCF-0.14(1.12.2).jar                            | None                                     |
+	| L     | jade                              | 0.1.0                    | Jade-0.1.0.jar                                    | None                                     |
+	| L     | immersiveengineering              | 0.12-98                  | ImmersiveEngineering-0.12-98.jar                  | None                                     |
+
+	Loaded coremods (and transformers): 
+ReachFixPlugin (ReachFix-1.12.2-1.1.3.jar)
+  meldexun.reachfix.asm.ReachFixClassTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+  mekanism.coremod.KeybindingMigrationHelper
+XaeroMinimapPlugin (Xaeros_Minimap_25.2.6_Forge_1.12.jar)
+  xaero.common.core.transformer.ChunkTransformer
+  xaero.common.core.transformer.NetHandlerPlayClientTransformer
+  xaero.common.core.transformer.EntityPlayerTransformer
+  xaero.common.core.transformer.AbstractClientPlayerTransformer
+  xaero.common.core.transformer.WorldClientTransformer
+  xaero.common.core.transformer.EntityPlayerMPTransformer
+  xaero.common.core.transformer.EntityPlayerSPTransformer
+  xaero.common.core.transformer.PlayerListTransformer
+  xaero.common.core.transformer.SaveFormatTransformer
+  xaero.common.core.transformer.GuiIngameForgeTransformer
+  xaero.common.core.transformer.KeyBindingTransformer
+  xaero.common.core.transformer.MinecraftServerTransformer
+  xaero.common.core.transformer.GuiBossOverlayTransformer
+  xaero.common.core.transformer.ModelRendererTransformer
+SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.6.0.jar)
+  
+Quark Plugin (Quark-r1.6-179.jar)
+  vazkii.quark.base.asm.ClassTransformer
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+HCASM (HammerLib-1.12.2-12.2.58.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
