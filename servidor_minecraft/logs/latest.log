@@ -1,0 +1,264 @@
+[00:10:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:10:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:10:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:10:34] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[00:10:34] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[00:10:35] [main/INFO] [FML]: Searching /workspaces/wwwadsa/servidor_minecraft/./mods for mods
+[00:10:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in HammerLib-1.12.2-12.2.58.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:10:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from hermitsarsenal-V1.jar
+[00:10:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.3.390.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:10:35] [main/WARN] [FML]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:10:35] [main/WARN] [FML]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[00:10:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from nocubesrptweaks-V5.1.jar
+[00:10:35] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[00:10:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:10:35] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[00:10:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ReachFix-1.12.2-1.1.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:10:35] [main/WARN] [FML]: The coremod ReachFixPlugin (meldexun.reachfix.asm.ReachFixPlugin) is not signed!
+[00:10:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from SpartanWeaponry-1.12.2-1.6.0.jar
+[00:10:35] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from srptweaks-V2.jar
+[00:10:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_25.2.6_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:10:35] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[00:10:35] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:10:35] [main/WARN] [FML]: The coremod IELoadingPlugin (blusunrize.immersiveengineering.common.asm.IELoadingPlugin) is not signed!
+[00:10:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:10:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[00:10:35] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/wwwadsa/servidor_minecraft/./mods/hermitsarsenal-V1.jar Service=LaunchWrapper Env=SERVER
+[00:10:35] [main/WARN] [FML]: The coremod SpartanWeaponry-MixinLoader (com.oblivioussp.spartanweaponry.mixin.MixinLoader) is not signed!
+[00:10:35] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[00:10:35] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[00:10:35] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[00:10:35] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[00:10:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:10:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:10:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:10:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:36] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:10:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:36] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[00:10:36] [main/ERROR] [mixin]: Mixin config mixins.hermitsarsenal.json does not specify "minVersion" property
+[00:10:36] [main/ERROR] [mixin]: Mixin config mixins.nocubesrptweaks.base.json does not specify "minVersion" property
+[00:10:36] [main/ERROR] [mixin]: Mixin config mixins.srptweaks.json does not specify "minVersion" property
+[00:10:36] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@3e83c18
+[00:10:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:10:37] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:10:37] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:10:37] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
+[00:10:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[00:10:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[00:10:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:37] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:37] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[00:10:37] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[00:10:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:37] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:37] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.entity.EntityLivingBase (vp)...
+[00:10:37] [main/INFO] [Hammer Core [ASM]]:   -Patching EntityLivingBase
+[00:10:37] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'onItemUseFinish': added event call.
+[00:10:37] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.zeitheron.hammercore.asm.HammerCoreTransformer' was detected and will no longer process meta class data
+[00:10:37] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[00:10:37] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[00:10:37] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.world.World (amu)...
+[00:10:37] [main/INFO] [Hammer Core [ASM]]:   -Patching World
+[00:10:37] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'k', replaced nx.e()V with HC call.
+[00:10:37] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[00:10:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[00:10:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:37] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:37] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[00:10:37] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:37] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:37] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[00:10:37] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[00:10:37] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.player.EntityPlayer finished, added func_184613_cA() overriding EntityLivingBase
+[00:10:37] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.entity.EntityLivingBase (vp)...
+[00:10:37] [main/INFO] [Hammer Core [ASM]]:   -Patching EntityLivingBase
+[00:10:37] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'onItemUseFinish': added event call.
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.entity.item.EntityItem (acl)...
+[00:10:38] [main/INFO] [Hammer Core [ASM]]:   -Patching EntityItem
+[00:10:38] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'attackEntityFrom': added event call.
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Located patch target node ARETURN
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[00:10:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[00:10:38] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:38] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[00:10:38] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[00:10:38] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node IRETURN
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:39] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.item.EntityItemFrame], Method [func_184230_a]
+[00:10:39] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.item.EntityItemFrame Finished.
+[00:10:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[00:10:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[00:10:39] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[00:10:39] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:40] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[00:10:40] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[00:10:40] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:40] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[00:10:40] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:40] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[00:10:40] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[00:10:40] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[00:10:40] [main/INFO] [Quark ASM]: Failed to locate the method!
+[00:10:40] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[00:10:40] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[00:10:40] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:40] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:40] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.entity.ai.EntityAICreeperSwell], Method [func_75246_d]
+[00:10:40] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.entity.ai.EntityAICreeperSwell Finished.
+[00:10:40] [main/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[00:10:40] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[00:10:40] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:40] [main/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[00:10:40] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:41] [main/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[00:10:41] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[00:10:41] [main/INFO] [Quark ASM]: Located Method, patching...
+[00:10:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[00:10:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[00:10:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[00:10:41] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[00:10:41] [main/INFO] [Quark ASM]: Patch result: true
+[00:10:41] [main/INFO] [EnderCore ASM]: Transforming Class [net.minecraft.inventory.ContainerFurnace], Method [func_82846_b]
+[00:10:41] [main/INFO] [EnderCore ASM]: Transforming net.minecraft.inventory.ContainerFurnace Finished.
+[00:10:41] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.profiler.Profiler (rl)...
+[00:10:41] [main/INFO] [Hammer Core [ASM]]:   -Patched startSection!
+[00:10:41] [main/INFO] [Hammer Core [ASM]]:   -Patched endSection!
+[00:10:41] [main/INFO] [Hammer Core [ASM]]:   -Patched endStartSection!
+[00:10:41] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
+[00:10:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[00:10:41] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[00:10:41] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:10:41] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[00:10:41] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[00:10:41] [Server thread/INFO] [FML]: Searching /workspaces/wwwadsa/servidor_minecraft/./mods for mods
+[00:10:42] [Server thread/WARN] [FML]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.13.2
+[00:10:42] [Server thread/WARN] [FML]: Mod bettermineshafts is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-2.2.1
+[00:10:42] [Server thread/INFO] [FML]: Disabling mod ctgui it is client side only.
+[00:10:43] [Server thread/WARN] [FML]: Mod hermitsarsenal is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version V1
+[00:10:43] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[00:10:43] [Server thread/WARN] [FML]: Mod mekanismgenerators is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.3.390
+[00:10:43] [Server thread/WARN] [FML]: Mod mekanismtools is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.3.390
+[00:10:43] [Server thread/WARN] [FML]: Mod nocubesrptweaks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version V5.1
+[00:10:43] [Server thread/WARN] [FML]: Mod reachfix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.3
+[00:10:43] [Server thread/WARN] [FML]: Mod srptweaks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version V2
+[00:10:43] [Server thread/WARN] [FML]: Mod swparasites is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v3.1
+[00:10:44] [Server thread/INFO] [FML]: Forge Mod Loader has identified 77 mods to load
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for appleskin: assets/appleskin/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for bettermineshafts: assets/bettermineshafts/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for crafttweakerjei: assets/crafttweakerjei/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderiobase: assets/enderiobase/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderioconduitsappliedenergistics: assets/enderioconduitsappliedenergistics/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderioconduitsopencomputers: assets/enderioconduitsopencomputers/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderioconduitsrefinedstorage: assets/enderioconduitsrefinedstorage/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderioconduits: assets/enderioconduits/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderiointegrationforestry: assets/enderiointegrationforestry/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderiointegrationtic: assets/enderiointegrationtic/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderiointegrationticlate: assets/enderiointegrationticlate/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderioinvpanel: assets/enderioinvpanel/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderiomachines: assets/enderiomachines/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for enderiopowertools: assets/enderiopowertools/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for mekanismgenerators: assets/mekanismgenerators/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for mekanismtools: assets/mekanismtools/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for reachfix: assets/reachfix/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
+[00:10:44] [Server thread/WARN] [FML]: Missing English translation for srptweaks: assets/srptweaks/lang/en_us.lang
+[00:10:44] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod reccomplex (Recurrent Complex) requires [ivtoolkit]
+[00:10:44] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.MissingModsException: Mod reccomplex (Recurrent Complex) requires [ivtoolkit]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_452]
+[00:10:44] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /workspaces/wwwadsa/servidor_minecraft/./crash-reports/crash-2025-06-12_00.10.44-server.txt
+[00:10:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:10:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[00:10:44] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[00:10:44] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:10:44] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
